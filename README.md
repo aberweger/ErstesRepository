@@ -1,2 +1,3 @@
 "# ErstesRepository" 
-Gutes Repo - Kreshnik Sadriu
+Gutes Repo, vorallem bei diesem wunderschönem Tag - Kreshnik Sadriu
+
