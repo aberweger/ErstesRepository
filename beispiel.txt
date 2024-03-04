@@ -1,2 +1,6 @@
 lorem ipsum
+<<<<<<< HEAD
 Hier ist mein Commit Dazu - Kreshnik Sadriu
+=======
+Es ist Nachmittag und ich trinke einen Kaffee.
+>>>>>>> 36b36850c5aae20aaac8e5fe87d0438e6d61b7c1
