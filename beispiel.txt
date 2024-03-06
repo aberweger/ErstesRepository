@@ -1,4 +1,5 @@
 lorem ipsum
 Hier ist mein Commit Dazu - Kreshnik Sadriu
 Es ist Nachmittag und ich trinke einen Kaffee.
+Ich will hier einen push machen von VS Code - Kreshnik
 
