@@ -1,0 +1,135 @@
+{
+  "id": "dd543e6b-8001-4baf-a9cc-b3ac171d25df",
+  "version": "2.0",
+  "name": "Blog Annina Berweger Test",
+  "url": "https://anninaberweger.com/kontakt",
+  "tests": [{
+    "id": "038ec5d0-3893-4fe8-a1d9-0b3784c70379",
+    "name": "Test Kontaktformular",
+    "commands": [{
+      "id": "0ed76ff3-6552-4224-a628-c442ba3f6557",
+      "comment": "",
+      "command": "open",
+      "target": "https://anninaberweger.com/kontakt",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99b0a0f9-5011-4d99-8af6-936f662f9b3f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x852",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28af57a8-a6a0-438b-86a6-930d23eb08b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=text-yui_3_17_2_1_1461234114640_455554-field",
+      "targets": [
+        ["id=text-yui_3_17_2_1_1461234114640_455554-field", "id"],
+        ["css=#text-yui_3_17_2_1_1461234114640_455554-field", "css:finder"],
+        ["xpath=//input[@id='text-yui_3_17_2_1_1461234114640_455554-field']", "xpath:attributes"],
+        ["xpath=//div[@id='text-yui_3_17_2_1_1461234114640_455554']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1530fcc-6fab-4ca1-9b85-664a0d42c8e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=text-yui_3_17_2_1_1461234114640_455554-field",
+      "targets": [
+        ["id=text-yui_3_17_2_1_1461234114640_455554-field", "id"],
+        ["css=#text-yui_3_17_2_1_1461234114640_455554-field", "css:finder"],
+        ["xpath=//input[@id='text-yui_3_17_2_1_1461234114640_455554-field']", "xpath:attributes"],
+        ["xpath=//div[@id='text-yui_3_17_2_1_1461234114640_455554']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Annina"
+    }, {
+      "id": "15786b81-fe85-44c3-af0a-c036e7221808",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-yui_3_17_2_1_1461234114640_451977-field",
+      "targets": [
+        ["id=email-yui_3_17_2_1_1461234114640_451977-field", "id"],
+        ["css=#email-yui_3_17_2_1_1461234114640_451977-field", "css:finder"],
+        ["xpath=//input[@id='email-yui_3_17_2_1_1461234114640_451977-field']", "xpath:attributes"],
+        ["xpath=//div[@id='email-yui_3_17_2_1_1461234114640_451977']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "aberweger@gmail.com"
+    }, {
+      "id": "9b492217-9b64-42c7-b344-29336059da93",
+      "comment": "",
+      "command": "type",
+      "target": "id=text-yui_3_17_2_1_1461234114640_452399-field",
+      "targets": [
+        ["id=text-yui_3_17_2_1_1461234114640_452399-field", "id"],
+        ["css=#text-yui_3_17_2_1_1461234114640_452399-field", "css:finder"],
+        ["xpath=//input[@id='text-yui_3_17_2_1_1461234114640_452399-field']", "xpath:attributes"],
+        ["xpath=//div[@id='text-yui_3_17_2_1_1461234114640_452399']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Test Kontaktaufnahme"
+    }, {
+      "id": "760ad1d9-9fac-4507-b540-331f6ea32892",
+      "comment": "",
+      "command": "type",
+      "target": "id=textarea-yui_3_17_2_1_1461234114640_452821-field",
+      "targets": [
+        ["id=textarea-yui_3_17_2_1_1461234114640_452821-field", "id"],
+        ["css=#textarea-yui_3_17_2_1_1461234114640_452821-field", "css:finder"],
+        ["xpath=//textarea[@id='textarea-yui_3_17_2_1_1461234114640_452821-field']", "xpath:attributes"],
+        ["xpath=//div[@id='textarea-yui_3_17_2_1_1461234114640_452821']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Hallo Annina\\nDies ist ein Selenium Test"
+    }, {
+      "id": "21a810a1-3f1e-4639-a59d-820fdcf5f2d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-submit-button-label",
+      "targets": [
+        ["css=.form-submit-button-label", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_64_1461234114640_6017']/div/div[2]/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aff2af2-e149-441a-b963-ae8d6355b209",
+      "comment": "",
+      "command": "click",
+      "target": "id=block-yui_3_17_2_64_1461234114640_6017",
+      "targets": [
+        ["id=block-yui_3_17_2_64_1461234114640_6017", "id"],
+        ["css=#block-yui_3_17_2_64_1461234114640_6017", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_64_1461234114640_6017']", "xpath:attributes"],
+        ["xpath=//div[@id='page-5718e43b20c647a64ad688e3']/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a621f25-0c94-4cfa-910c-f804dbdcbe13",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.form-submission-text--align- > p",
+      "targets": [
+        ["css=.form-submission-text--align- > p", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_64_1461234114640_6017']/div/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/p", "xpath:position"]
+      ],
+      "value": "Vielen Dank für deine Nachricht.\\nGerne werde ich mich bei dir melden."
+    }]
+  }],
+  "suites": [{
+    "id": "28ac9f90-e4a5-460e-984a-46f6432e8b23",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://anninaberweger.com/", "https://anninaberweger.com//blog", "https://anninaberweger.com/blog", "https://anninaberweger.com/kontakt"],
+  "plugins": []
+}
