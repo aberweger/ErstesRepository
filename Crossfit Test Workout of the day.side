@@ -1,0 +1,71 @@
+{
+  "id": "5dc133d2-9f7a-4c4a-976c-b0a8fb89344b",
+  "version": "2.0",
+  "name": "Crossfit",
+  "url": "https://www.crossfit.com/",
+  "tests": [{
+    "id": "1b330b37-7592-4cda-a21d-57edd3ff0668",
+    "name": "Workout of the Day",
+    "commands": [{
+      "id": "5d5f80a7-8268-4004-91ca-a5d4e49f9a09",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.crossfit.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1fd4577-572f-4a87-bc53-8942d9016517",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1260x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1cbf8c4-98a8-4a2b-9b76-2990c3373be3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,47)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7db6935-bee6-4cc9-8025-c715c1ad2ed1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_date_e4xss_101 > .zR738EbcslOBWcu9Rm12",
+      "targets": [
+        ["css=.\\_date_e4xss_101 > .zR738EbcslOBWcu9Rm12", "css:finder"],
+        ["xpath=//main[@id='main']/section[6]/div/section/div/header/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d39b5e6b-bbbd-4488-b9a8-9adea1aae147",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d89c5d01-5a49-4021-b6d5-43bea0b0b23f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div:nth-child(1) > .\\_wrapper_10gy9_17 > .\\_wrapper_pdh7e_17",
+      "targets": [
+        ["css=div:nth-child(1) > .\\_wrapper_10gy9_17 > .\\_wrapper_pdh7e_17", "css:finder"],
+        ["xpath=//main[@id='main']/section/div/div[2]/div/div/div/header/h2", "xpath:idRelative"],
+        ["xpath=//header/h2", "xpath:position"]
+      ],
+      "value": "WORKOUT OF THE DAY"
+    }]
+  }],
+  "suites": [{
+    "id": "17c519ed-99c0-419f-ab04-22d3260aa326",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.crossfit.com/"],
+  "plugins": []
+}
