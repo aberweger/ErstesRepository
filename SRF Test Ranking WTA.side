@@ -1,0 +1,154 @@
+{
+  "id": "1d3d2fa0-5541-49f5-bbdb-002401d48964",
+  "version": "2.0",
+  "name": "SRF Sport",
+  "url": "https://www.srf.ch/",
+  "tests": [{
+    "id": "d6f11312-6be0-49e6-b221-e89f7af0760f",
+    "name": "Aufruf WTA Ranking",
+    "commands": [{
+      "id": "61e00351-b687-44dc-865f-c78fd04b9f4b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.srf.ch/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ceed067-8249-4964-9373-85201bae12ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1163x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b33dff0b-d795-4f95-a832-10065231ab4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sport",
+      "targets": [
+        ["linkText=Sport", "linkText"],
+        ["css=li:nth-child(2) > .portalsnav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sport')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/sport')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sport')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c55123e7-e51f-455a-8fae-efb18ac89782",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tennis",
+      "targets": [
+        ["linkText=Tennis", "linkText"],
+        ["css=.subnav__list-item:nth-child(5) > .nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Tennis')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/sport/tennis')]", "xpath:href"],
+        ["xpath=//div[3]/nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tennis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dac07af-e3a3-4426-8ce1-520c293f0d9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.collection__link-item:nth-child(1) .collection__link-text",
+      "targets": [
+        ["css=.collection__link-item:nth-child(1) .collection__link-text", "css:finder"],
+        ["xpath=//ul[2]/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tennis: Resultate WTA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "327a1408-2013-4ae7-bb5b-042a6163039b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.heading > h2",
+      "targets": [
+        ["css=.heading > h2", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[4]/div/div/div[2]/div[2]/div/div/div/a/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'WTA Ranking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "309af6c6-d4e6-4db6-87df-9b2bb23134ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.heading > h2",
+      "targets": [
+        ["css=.heading > h2", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[4]/div/div/div[2]/div[2]/div/div/div/a/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'WTA Ranking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed065b39-8366-4e83-9564-6a31c62e4c2a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "198b0ac5-8b8a-464a-a36a-d3b70f7f878f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.heading > h2",
+      "targets": [
+        ["css=.heading > h2", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[4]/div/div/div/div/div[2]/div/div/div/a/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'WTA Ranking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e214656-d870-424f-8407-a4a7cba7eda7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1559ec6a-5f0c-4f62-8956-e551924d68e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.heading > h2",
+      "targets": [
+        ["css=.heading > h2", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[4]/div/div/div[2]/div[2]/div/div/div/a/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'WTA Ranking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3609dff8-fed1-47a7-8b37-6876e31fab7f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b96d93d7-1f8c-4c51-a591-1b3d568e8e06",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.ranking",
+      "targets": [
+        ["css=.ranking", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[4]/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c74a02b0-1402-4dfc-a242-67c1f83263eb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d6f11312-6be0-49e6-b221-e89f7af0760f"]
+  }],
+  "urls": ["https://www.srf.ch/"],
+  "plugins": []
+}
