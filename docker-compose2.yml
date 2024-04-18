@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: somepassword
+      MARIADB_DATABASE: drupaldb
+      MARIADB_USER: drupaluser
+      MARIADB_PASSWORD: drupalpass
+    volumes:
+      - mariadb_data:/var/lib/mysql
+  drupal:
+    image: drupal
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - drupal_modules:/var/www/html/modules
+      - drupal_profiles:/var/www/html/profiles
+      - drupal_sites:/var/www/html/sites
+      - drupal_themes:/var/www/html/themes
+    depends_on:
+      - db
+    environment:
+      DRUPAL_DB_URL: mysql://drupaluser:drupalpass@db/drupaldb
+
+volumes:
+  mariadb_data:
+  drupal_modules:
+  drupal_profiles:
+  drupal_sites:
+  drupal_themes:
